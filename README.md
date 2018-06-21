@@ -1,0 +1,3 @@
+# TransparentCell
+类似网易新闻中 透过透明cel看到背景的l效果
+实现方式是滚动的时候，不断改变加载的图片资源，主要用到了CGImageCreateWithImageInRect这个方法。
