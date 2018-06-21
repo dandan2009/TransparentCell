@@ -13,6 +13,8 @@
 		74D6AEF220D9FA1B00B511DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D6AEF120D9FA1B00B511DB /* Assets.xcassets */; };
 		74D6AEF520D9FA1B00B511DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D6AEF320D9FA1B00B511DB /* LaunchScreen.storyboard */; };
 		74D6AEF820D9FA1B00B511DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D6AEF720D9FA1B00B511DB /* main.m */; };
+		74D6AF0020D9FC2B00B511DB /* TransparentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D6AEFF20D9FC2B00B511DB /* TransparentCell.m */; };
+		74D6AF0220DA02F200B511DB /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D6AF0120DA02F100B511DB /* test.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		74D6AEF420D9FA1B00B511DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74D6AEF620D9FA1B00B511DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74D6AEF720D9FA1B00B511DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74D6AEFE20D9FC2B00B511DB /* TransparentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransparentCell.h; sourceTree = "<group>"; };
+		74D6AEFF20D9FC2B00B511DB /* TransparentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransparentCell.m; sourceTree = "<group>"; };
+		74D6AF0120DA02F100B511DB /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +63,18 @@
 		74D6AEE720D9FA1A00B511DB /* TransparentCell */ = {
 			isa = PBXGroup;
 			children = (
+				74D6AF0120DA02F100B511DB /* test.png */,
 				74D6AEE820D9FA1A00B511DB /* AppDelegate.h */,
 				74D6AEE920D9FA1A00B511DB /* AppDelegate.m */,
 				74D6AEEB20D9FA1A00B511DB /* ViewController.h */,
 				74D6AEEC20D9FA1A00B511DB /* ViewController.m */,
+				74D6AEFE20D9FC2B00B511DB /* TransparentCell.h */,
+				74D6AEFF20D9FC2B00B511DB /* TransparentCell.m */,
 				74D6AEEE20D9FA1A00B511DB /* Main.storyboard */,
 				74D6AEF120D9FA1B00B511DB /* Assets.xcassets */,
 				74D6AEF320D9FA1B00B511DB /* LaunchScreen.storyboard */,
-				74D6AEF620D9FA1B00B511DB /* Info.plist */,
 				74D6AEF720D9FA1B00B511DB /* main.m */,
+				74D6AEF620D9FA1B00B511DB /* Info.plist */,
 			);
 			path = TransparentCell;
 			sourceTree = "<group>";
@@ -131,6 +139,7 @@
 				74D6AEF520D9FA1B00B511DB /* LaunchScreen.storyboard in Resources */,
 				74D6AEF220D9FA1B00B511DB /* Assets.xcassets in Resources */,
 				74D6AEF020D9FA1A00B511DB /* Main.storyboard in Resources */,
+				74D6AF0220DA02F200B511DB /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +152,7 @@
 			files = (
 				74D6AEED20D9FA1A00B511DB /* ViewController.m in Sources */,
 				74D6AEF820D9FA1B00B511DB /* main.m in Sources */,
+				74D6AF0020D9FC2B00B511DB /* TransparentCell.m in Sources */,
 				74D6AEEA20D9FA1A00B511DB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,12 +294,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8774FTZN6;
 				INFOPLIST_FILE = TransparentCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = shan.TransparentCell;
+				PRODUCT_BUNDLE_IDENTIFIER = shansu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,12 +312,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8774FTZN6;
 				INFOPLIST_FILE = TransparentCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = shan.TransparentCell;
+				PRODUCT_BUNDLE_IDENTIFIER = shansu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

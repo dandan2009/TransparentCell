@@ -10,4 +10,6 @@
 
 @interface TransparentCell : UITableViewCell
 
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView;
+
 @end
